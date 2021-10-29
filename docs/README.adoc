@@ -1,0 +1,97 @@
+== Learning about Simeon and the Simeon Playground
+
+Simeon is a domain-specific language (DSL) for writing financial
+contracts that run on blockchain.
+
+The best place to go to learn about Simeon and to try it out is the https://david.simeon.tbcodev.io/[Simeon Playground], which also contains a https://david.simeon.tbcodev.io/tutorial/[tutorial] about Simeon.
+
+== Earlier versions of Simeon
+
+This document describes the different materials available for learning
+about Simeon and the online tool that accompanies it: the Simeon
+Playground. originally called Meadow. It also advises you where to
+begin, depending on what you want to learn, and where you are starting
+from.
+
+Simeon is realised as DSL embedded in Haskell, but it is possible to
+use Simeon without being a Haskell expert. Simeon is a live project,
+and the materials here describe two versions of Simeon: the earlier
+https://github.com/The-Blockchain-Company/simeon/tree/v1.3[version 1.3], and
+the
+https://github.com/The-Blockchain-Company/simeon/tree/master/semantics-2.0[current
+version], 2.0.
+
+The Simeon Playground is also available in two versions:
+
+* It was originally called
+https://The-Blockchain-Company.github.io/simeon/[Meadow] supports v1.3, and
+this version supports contract development using Blockly, a visual
+programming environment. It also supports the development of
+``embedded'' contracts using aspects of Haskell, but because this runs a
+Haskell environment in the browser, it has a substantial latency.
+* The latest version, the https://prod.meadow.simeon.tbcodev.io[Simeon
+Playground], supports development of embedded contracts is a much more
+efficient way, as well as presenting a substantially cleaner interface,
+but doesn’t currently support visual program development.
+
+=== Where should I start?
+
+I want to learn the ideas behind Simeon, but not to write Simeon
+contracts myself.
+
+* The first parts of the link:./tutorial-v1.3/README.md[tutorial] and
+the https://www.udemy.com/simeon-programming-language/[Udemy course]
+will give you this introduction.
+
+I want to learn how to write simple Simeon contracts, and to run them
+in the Meadow tool.
+
+* The https://www.udemy.com/simeon-programming-language/[Udemy course]
+and link:./tutorial-v1.3/README.md[tutorial] will give you an
+introduction to building contracts using Blockly.
+* If you are not a Haskell programmer, then you can skip the tutorial
+sections on link:./tutorial-v1.3/simeon-semantics.md[Understanding the
+semantics] and link:./tutorial-v1.3/using-simeon.md[Using Simeon].
+
+I have learned about Simeon 1.3, and written contracts there, but I
+want to convert to v2.0 and use the Simeon Playground.
+
+* You can find out about the
+link:./tutorial-v1.3/differences.md[differences between v1.3 and v2.0],
+and link:./tutorial-v1.3/checklist.md[this checklist] will help you to
+convert contracts from v1.3 to v2.0.
+
+I am a Haskell programmer, and I want to get started developing Simeon
+contracts embedded in Haskell and to run them in Haskell and the Simeon
+Playground.
+
+* To do this, follow the link:./tutorial-v2.0/README.md[tutorial] on the
+current version of Simeon and develop your programs in the
+https://prod.meadow.simeon.tbcodev.io[Simeon Playground].
+
+=== Miami Hackathon
+
+The link:./challenge.md[challenge] for the Hackathon at the Miami
+summit.
+
+The link:./SummitSimeon.pdf[Simeon slides] (PDF) from the hackathon.
+
+=== Materials available
+
+This section lists all the learning resources for Simeon, the Simeon
+Playground and Meadow.
+
+* link:./tutorial-v1.3/README.md[Tutorial] for version 1.3 of Simeon
+and the first version of the Meadow tool.
+* link:./tutorial-v2.0/README.md[Tutorial] for version 2.0 of Simeon
+and the Simeon Playground.
+* An link:./tutorial-v1.3/differences.md[overview] of the differences
+between v1.3 and v2.0.
+* A link:./tutorial-v1.3/checklist.md[checklist] for converting a v1.3
+contract to v2.0.
+* https://www.udemy.com/simeon-programming-language/[Udemy course] on
+Simeon (v1.3) and Meadow.
+* https://tbco.io/research/papers/#2WHKDRA8[Paper] on Simeon,
+describing v1.3 and Meadow.
+* https://youtu.be/_loz70XkHM8[Video] run-through of the original
+Meadow.

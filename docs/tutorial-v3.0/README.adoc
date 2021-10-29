@@ -1,0 +1,87 @@
+== Simeon 3.0 tutorials
+
+This document gives an overview of a set of Simeon tutorials.
+
+
+=== link:./introducing-simeon.adoc[Introducing Simeon]
+
+This tutorial gives an overview of the ideas behind Simeon, as a
+domain-specific language embedded in Haskell. It also introduces
+commitments and timeouts, which are central to how Simeon works in a
+blockchain context.
+
+=== link:./escrow-ex.adoc[A first example: the escrow contract]
+
+This tutorial introduces a simple financial contract in pseudocode,
+before explaining how it is modified to work in Simeon, giving the
+first example of a Simeon contract.
+
+=== link:./simeon-model.adoc[The Simeon Model]
+
+In this tutorial we look at our general approach to modelling contracts in Simeon, and the context in which Simeon contracts are executed: the Bcc blockchain. In doing this we also introduce some of the standard terminology that we will use in describing Simeon.
+
+=== link:./simeon-step-by-step.adoc[Simeon step by step]
+
+This tutorial explains the five ways of building contracts in Simeon. Four of these – `Pay`, `Let`, `If` and `When` – build a complex contract from simpler contracts, and the fifth, `Refund`, is a simple contract. 
+
+In explaining these contracts we will also explain Simeon _values_, _observations_ and _actions_, which are used to supply external information and inputs to a running contract to control how it will evolve.
+
+=== link:./escrow_step_by_step.adoc[Escrow step by step] NOT YET UPDATED
+On this tutorial we build the escrow contract step by step. From a single contract with a single actor (Alice) to multiple actors (Alice,Bob,Carol) and multiple interactions. /This was the script for the example in the udemy class/.
+
+
+=== link:./simeon-data.adoc[The Simeon data types]
+
+This tutorial formally introduces Simeon as a Haskell data type, as well as presenting 
+the different types used by the model, and discussing a
+number of assumptions about the infrastructure in which contracts will
+be run.
+
+//// 
+=== link:./simeon-semantics.adoc[Understanding the semantics] IGNORE THIS
+
+This tutorial gives an introduction to the formal semantics of Simeon
+by presenting an overview of the key Haskell definitions that interpret
+inputs and transactions, as well as fitting those into a schematic
+overview of how the components of the semantics work together.
+////
+
+=== link:./embedded-simeon.adoc[Embedded Simeon] 
+
+This tutorial shows how to use some simple features of Haskell to write
+Simeon contracts that are more readable, maintainable and reusable, by
+revisiting the escrow contract.
+
+=== link:./using-simeon.adoc[Using Simeon]
+
+This tutorial shows you how to use Simeon from within Haskell, and in
+particular shows how to exercise a contract using the semantics given earlier.
+
+=== link:./playground-overview.adoc[The Simeon Playground]
+
+This tutorial introduces the Simeon Playground, an online tool for
+creating embedded Simeon contracts and interactively stepping through
+their execution.
+
+=== link:./actus-simeon.adoc[ACTUS and Simeon] 
+
+This tutorial gives an introduction to the general idea of the ACTUS
+taxonomy, plus examples implemented in Simeon.
+
+//// 
+=== link:./simeon-zerepoch.adoc[Implementing Simeon in Zerepoch] NOT YET UPDATED
+
+So far these tutorials have dealt with Simeon as a “stand alone”
+artefact; this tutorial describes how Simeon is implemented on
+blockchain, using the “mockchain” that provides a high-fidelity
+simulation of the Bcc SL layer.
+////
+____
+These tutorials address the current version of
+Simeon, 3.0, which is implemented in the _Simeon Playground_, and
+available https://prod.meadow.simeon.tbcodev.io[here].
+
+The version covered in the ISoLA paper, and supported in the original
+version of Meadow, is tagged as *v1.3* and is
+available https://github.com/The-Blockchain-Company/simeon/tree/v1.3[here].
+____

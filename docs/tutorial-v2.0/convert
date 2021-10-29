@@ -1,0 +1,10 @@
+pandoc -f markdown -o ../tutorial-v3.0/README.adoc README.md
+pandoc -f markdown -o ../tutorial-v3.0/actus-simeon.adoc actus-simeon.md
+pandoc -f markdown -o ../tutorial-v3.0/embedded-simeon.adoc embedded-simeon.md
+pandoc -f markdown -o ../tutorial-v3.0/escrow-ex.adoc escrow-ex.md
+pandoc -f markdown -o ../tutorial-v3.0/introducing-simeon.adoc introducing-simeon.md
+pandoc -f markdown -o ../tutorial-v3.0/simeon-data.adoc simeon-data.md
+pandoc -f markdown -o ../tutorial-v3.0/simeon-zerepoch.adoc simeon-zerepoch.md
+pandoc -f markdown -o ../tutorial-v3.0/simeon-semantics.adoc simeon-semantics.md
+pandoc -f markdown -o ../tutorial-v3.0/playground-overview.adoc playground-overview.md
+pandoc -f markdown -o ../tutorial-v3.0/using-simeon.adoc using-simeon.md

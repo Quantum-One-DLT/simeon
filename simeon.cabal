@@ -1,0 +1,62 @@
+name:                   simeon
+version:                0.3.0.0
+license:                BSD3
+license-file:           LICENSE
+author:                 Alexander Nemish
+maintainer:             alexander.nemish@tbco.io
+build-type:             Simple
+extra-source-files:     README.md
+cabal-version:          >= 1.10
+
+executable simeon
+    default-language:   Haskell2010
+    build-depends:      base >=4.9,
+                        base16-bytestring,
+                        bytestring,
+                        containers,
+                        cryptohash,
+                        QuickCheck,
+                        mtl,
+                        sbv,
+                        tasty,
+                        tasty-hunit,
+                        tasty-smallcheck,
+                        tasty-quickcheck,
+                        text,
+                        template-haskell,
+                        time,
+                        wl-pprint -any
+    other-modules:
+                        Language.Simeon
+                        Language.Simeon.Pretty
+                        Language.Simeon.Semantics
+                        Language.Simeon.ExtendedBuilder
+                        Language.Simeon.Serialisation
+                        Language.Simeon.Deserialisation
+                        Language.Simeon.SemanticsTypes
+                        Language.Simeon.SemanticsDeserialisation
+                        Language.Simeon.SemanticsSerialisation
+                        Language.Simeon.Util
+                        Language.Simeon.ACTUS
+                        Language.Simeon.ACTUS.ActusContracts
+                        Language.Simeon.Examples.Auction
+                        Language.Simeon.Examples.CouponBond
+                        Language.Simeon.Examples.CrowdFunding
+                        Language.Simeon.Examples.DepositIncentive
+                        Language.Simeon.Examples.Escrow
+                        Language.Simeon.Examples.EscrowSimple
+                        Language.Simeon.Examples.ExpCrowdFunding
+                        Language.Simeon.Examples.ExpEscrow
+                        Language.Simeon.Examples.ExpRent
+                        Language.Simeon.Examples.Rent
+                        Language.Simeon.Examples.ZCBG
+                        Language.Simeon.Examples.ZCBG2
+                        Language.Simeon.Analysis.FSSet
+                        Language.Simeon.Analysis.FSMap
+                        Language.Simeon.Analysis.FSSemanticsFastVerbose
+                        Language.Simeon.Analysis.IntegerArray
+                        Language.Simeon.Analysis.Numbering
+                        Language.Simeon.Analysis.MkSymb
+    hs-source-dirs:     src
+    main-is:            Main.hs
+
