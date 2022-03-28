@@ -3,7 +3,7 @@ version:                0.1.0.0
 license:                BSD3
 license-file:           LICENSE
 author:                 Robert Mourey Jr
-maintainer:             robert.mourey@tbco.io
+maintainer:             robert.mourey@blockchain-company.io
 build-type:             Simple
 extra-source-files:     README.md
 cabal-version:          >= 1.10

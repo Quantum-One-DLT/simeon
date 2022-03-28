@@ -1,8 +1,8 @@
 name:                   simeon
 version:                0.3.0.0
 license:                BSD3
-author:                 Alexander Nemish
-maintainer:             alexander.nemish@tbco.io
+author:                 Robert Mourey Jr
+maintainer:             rmourey_jr@blockchain-company.io
 build-type:             Simple
 cabal-version:          >= 1.10
 
